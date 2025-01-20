@@ -1,6 +1,10 @@
 #include <linux/module.h>
 #include <linux/init.h>
 
+// Function prototypes
+int my_init(void);
+void my_exit(void);
+
 int my_init(void)
 {
     printk("Hello, world!\n");

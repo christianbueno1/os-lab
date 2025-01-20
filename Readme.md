@@ -8,4 +8,8 @@ vim .git/info/exclude
 myprocess
 main
 
+# compile
+cd kernel-modules
+make
+
 ```
